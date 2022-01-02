@@ -44,7 +44,7 @@ stage ('dockerimageBuild')
 }
     
     
-stage ('k8sdeployment') 
+stage ('kubernetes') 
     {
         steps {
             node (' Ansible-server') {
